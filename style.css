@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins:wght@200;300&display=swap');
+
+header{
+    background-color: gray;
+    width: 100%;
+}
+.codoacodoimg{
+    width: 20%;
+}
+.container{
+/*     width: 100%;
+    height: 100%; */
+/*     overflow: hidden; */
+    position: relative;
+    margin: 0 auto;
+}
+
+.container h5{
+    font-size: 1.8rem;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 75%;
+    transform: translate(-10%, -50%);
+}
+
+.container p{
+    font-size: 1.2rem;
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    transform: translate(-20%, -50%);
+}
+
+.container button{
+    font-size: 1.2rem;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+.contenido {
+/*     position: absolute;
+    top: 0;
+    left: 0; */
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente para el texto */
+    color: white;
+/*     padding: 20px; */
+    text-align: center;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.imgba{
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: 0;
+}
+#header {
+    color: gray;
+}
+.box{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center
+}
+.oradores{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center
+}
+.oradores h3 {
+    color: black;
+    margin: 0;
+}
+footer{
+    display: block;
+    background-color: rgb(56, 56, 107);
+}
+.footercontainer{
+    margin-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+ul{
+    font-size: 1rem;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.cards{
+    display: flex;
+    margin: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    justify-content: space-between;
+    justify-items: center;
+}
+.content{
+    display: flex;
+    width: 100%;
+}
+.honolulu{
+    width: 100%;
+    margin-left: 0%;
+}
+.BsAs{
+    width: 100%;
+    margin-right: 0%;
+    height: 100%;
+
+}
+#contactForm{
+    margin: 5%;
+    margin-left: 10%;
+    width: 70%;
+    height: 70%;
+    display: flex;
+    margin-right: 10%;
+}
+#consulta{
+    margin: 5%;
+    margin-left: 30%;
+    display: flex;
+}
+#enviarBtn{
+    background-color: green;
+}
